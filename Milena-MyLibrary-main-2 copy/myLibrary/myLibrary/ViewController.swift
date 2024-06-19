@@ -42,4 +42,8 @@ class ViewController: UIViewController {
         present(InicioViewController, animated: true, completion: nil)
         
     }
+    @IBOutlet weak var myLibraryLogo: UIImageView!
+    
+    @IBAction func emailInput(_ sender: Any) {
+    }
 }
